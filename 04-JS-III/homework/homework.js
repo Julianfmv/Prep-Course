@@ -239,14 +239,14 @@ function breakStatement(numero) {
   // Tu código:
 
   const array=[];
-  let suma=numero;
+  let sum=numero;
   let counter=0
   for (let i=0; i<10; i++) {
-    suma=suma+2;
+    sum+=2;
     counter++
-    if (suma===i) break;
+    if (sum===i) break;
     else {
-      array.push(suma);
+      array.push(sum);
     }
   }
   if (counter<10) {
@@ -256,11 +256,6 @@ function breakStatement(numero) {
     return array;
   }
 }
-
-
-
-
-
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
